@@ -61,7 +61,7 @@ paths:
           description: Bad request. Student ID must be an integer and larger than
             0.
         "404":
-          description: A students with the specified ID was not found.
+          description: A student with the specified ID was not found.
       x-openapi-router-controller: swagger_server.controllers.default_controller
   /student:
     post:
